@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/blue/line_detect_test/src/opencv_test.cpp
+iostream
+-
+opencv2/opencv.hpp
+/home/blue/line_detect_test/src/opencv2/opencv.hpp
+
