@@ -11,12 +11,10 @@ set(CMAKE_CXX_COMPILER_ID "Clang")
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../include"
-  "../sub_project/include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/blue/line_detect_test/build/sub_project/CMakeFiles/SUB_PROJECT.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

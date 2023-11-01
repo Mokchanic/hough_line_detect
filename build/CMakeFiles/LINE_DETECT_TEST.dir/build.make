@@ -93,7 +93,6 @@ LINE_DETECT_TEST_EXTERNAL_OBJECTS =
 
 LINE_DETECT_TEST: CMakeFiles/LINE_DETECT_TEST.dir/src/main.cpp.o
 LINE_DETECT_TEST: CMakeFiles/LINE_DETECT_TEST.dir/build.make
-LINE_DETECT_TEST: sub_project/libSUB_PROJECT.a
 LINE_DETECT_TEST: CMakeFiles/LINE_DETECT_TEST.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/blue/line_detect_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable LINE_DETECT_TEST"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LINE_DETECT_TEST.dir/link.txt --verbose=$(VERBOSE)

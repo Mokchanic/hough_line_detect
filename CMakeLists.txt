@@ -42,7 +42,7 @@ target_include_directories(${PROJECT_NAME} PUBLIC
 )
 
 target_link_libraries(${PROJECT_NAME} PRIVATE
-	SUB_PROJECT
+	#SUB_PROJECT
 )
 
 target_compile_options(${PROJECT_NAME} PRIVATE

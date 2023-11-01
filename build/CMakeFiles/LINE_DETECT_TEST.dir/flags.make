@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -Wall -Wextra -Wpedantic -Werror -std=c++1z
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/blue/line_detect_test/include -I/home/blue/line_detect_test/sub_project/include 
+CXX_INCLUDES = -I/home/blue/line_detect_test/include 
 
