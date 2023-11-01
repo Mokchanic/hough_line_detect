@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/blue/line_detect_test/build
 # Target rules for target CMakeFiles/LINE_DETECT_TEST.dir
 
 # All Build rule for target.
-CMakeFiles/LINE_DETECT_TEST.dir/all: sub_project/CMakeFiles/SUB_PROJECT.dir/all
+CMakeFiles/LINE_DETECT_TEST.dir/all:
 	$(MAKE) -f CMakeFiles/LINE_DETECT_TEST.dir/build.make CMakeFiles/LINE_DETECT_TEST.dir/depend
 	$(MAKE) -f CMakeFiles/LINE_DETECT_TEST.dir/build.make CMakeFiles/LINE_DETECT_TEST.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/blue/line_detect_test/build/CMakeFiles --progress-num=1,2 "Built target LINE_DETECT_TEST"
@@ -79,7 +79,7 @@ all: CMakeFiles/LINE_DETECT_TEST.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/LINE_DETECT_TEST.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/blue/line_detect_test/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/blue/line_detect_test/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/LINE_DETECT_TEST.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/blue/line_detect_test/build/CMakeFiles 0
 .PHONY : CMakeFiles/LINE_DETECT_TEST.dir/rule
