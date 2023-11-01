@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/blue/line_detect_test/build",
+  "command": "/usr/bin/clang++-17   -I/home/blue/line_detect_test/include -I/home/blue/line_detect_test/sub_project/include  -g   -Wall -Wextra -Wpedantic -Werror -std=c++1z -o CMakeFiles/LINE_DETECT_TEST.dir/src/main.cpp.o -c /home/blue/line_detect_test/src/main.cpp",
+  "file": "/home/blue/line_detect_test/src/main.cpp"
+},
+{
+  "directory": "/home/blue/line_detect_test/build/sub_project",
+  "command": "/usr/bin/clang++-17   -I/home/blue/line_detect_test/sub_project/include  -g   -Wall -Wextra -Wpedantic -Werror -std=c++1z -o CMakeFiles/SUB_PROJECT.dir/src/utils.cpp.o -c /home/blue/line_detect_test/sub_project/src/utils.cpp",
+  "file": "/home/blue/line_detect_test/sub_project/src/utils.cpp"
+}
+]

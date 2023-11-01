@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSUB_PROJECT.a  CMakeFiles/SUB_PROJECT.dir/src/utils.cpp.o
+/usr/bin/ranlib libSUB_PROJECT.a

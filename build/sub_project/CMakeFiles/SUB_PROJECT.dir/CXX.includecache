@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../sub_project/include/sub_project/utils.hpp
+string
+-
+
+/home/blue/line_detect_test/sub_project/src/utils.cpp
+iostream
+-
+sub_project/utils.hpp
+/home/blue/line_detect_test/sub_project/src/sub_project/utils.hpp
+

@@ -1,0 +1,1 @@
+/usr/bin/clang++-17  -g   CMakeFiles/LINE_DETECT_TEST.dir/src/main.cpp.o  -o LINE_DETECT_TEST sub_project/libSUB_PROJECT.a 
