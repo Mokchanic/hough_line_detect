@@ -31,25 +31,23 @@ message(STATUS "${PROJECT_NAME}_RESOURCE_PATH: ${${PROJECT_NAME}_RESOURCE_PATH}"
 message(STATUS "${PROJECT_NAME}_SOURCE_PATH: ${${PROJECT_NAME}_SOURCE_PATH}")
 message(STATUS "----------------------------------------------")
 
-add_subdirectory(sub_project)
+# add_subdirectory(sub_project)
+find_package(OpenCV REQUIRED)
+include_directories(${OpenCV_INCLUDE_DIRS})
 
 add_executable(${PROJECT_NAME}
-	${${PROJECT_NAME}_SOURCE_PATH}/main.cpp
+	${${PROJECT_NAME}_SOURCE_PATH}/opencv_test.cpp
 )
 
 target_include_directories(${PROJECT_NAME} PUBLIC
 	${${PROJECT_NAME}_INCLUDE_PATH}
 )
 
-target_link_libraries(${PROJECT_NAME} PRIVATE
-	#SUB_PROJECT
+target_link_libraries(
+	${PROJECT_NAME} ${OpenCV_LIBS}
 )
+
 
 target_compile_options(${PROJECT_NAME} PRIVATE
 	-Wall -Wextra -Wpedantic -Werror
 )
-
-# find_package(OpenCV REQUIRED)
-# include_directories(${OpenCV_INCLUDE_DIRS})
-# add_executable(line_detect_test src/opencv_test.cpp)
-# target_link_libraries(line_detect_test ${OpenCV_LIBS})

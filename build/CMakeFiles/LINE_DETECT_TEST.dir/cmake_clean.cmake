@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/LINE_DETECT_TEST.dir/src/main.cpp.o"
+  "CMakeFiles/LINE_DETECT_TEST.dir/src/opencv_test.cpp.o"
   "LINE_DETECT_TEST.pdb"
   "LINE_DETECT_TEST"
 )

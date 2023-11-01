@@ -60,39 +60,80 @@ include CMakeFiles/LINE_DETECT_TEST.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/LINE_DETECT_TEST.dir/flags.make
 
-CMakeFiles/LINE_DETECT_TEST.dir/src/main.cpp.o: CMakeFiles/LINE_DETECT_TEST.dir/flags.make
-CMakeFiles/LINE_DETECT_TEST.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/blue/line_detect_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LINE_DETECT_TEST.dir/src/main.cpp.o"
-	/usr/bin/clang++-17  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LINE_DETECT_TEST.dir/src/main.cpp.o -c /home/blue/line_detect_test/src/main.cpp
+CMakeFiles/LINE_DETECT_TEST.dir/src/opencv_test.cpp.o: CMakeFiles/LINE_DETECT_TEST.dir/flags.make
+CMakeFiles/LINE_DETECT_TEST.dir/src/opencv_test.cpp.o: ../src/opencv_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/blue/line_detect_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LINE_DETECT_TEST.dir/src/opencv_test.cpp.o"
+	/usr/bin/clang++-17  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LINE_DETECT_TEST.dir/src/opencv_test.cpp.o -c /home/blue/line_detect_test/src/opencv_test.cpp
 
-CMakeFiles/LINE_DETECT_TEST.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LINE_DETECT_TEST.dir/src/main.cpp.i"
-	/usr/bin/clang++-17 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blue/line_detect_test/src/main.cpp > CMakeFiles/LINE_DETECT_TEST.dir/src/main.cpp.i
+CMakeFiles/LINE_DETECT_TEST.dir/src/opencv_test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LINE_DETECT_TEST.dir/src/opencv_test.cpp.i"
+	/usr/bin/clang++-17 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blue/line_detect_test/src/opencv_test.cpp > CMakeFiles/LINE_DETECT_TEST.dir/src/opencv_test.cpp.i
 
-CMakeFiles/LINE_DETECT_TEST.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LINE_DETECT_TEST.dir/src/main.cpp.s"
-	/usr/bin/clang++-17 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blue/line_detect_test/src/main.cpp -o CMakeFiles/LINE_DETECT_TEST.dir/src/main.cpp.s
+CMakeFiles/LINE_DETECT_TEST.dir/src/opencv_test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LINE_DETECT_TEST.dir/src/opencv_test.cpp.s"
+	/usr/bin/clang++-17 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blue/line_detect_test/src/opencv_test.cpp -o CMakeFiles/LINE_DETECT_TEST.dir/src/opencv_test.cpp.s
 
-CMakeFiles/LINE_DETECT_TEST.dir/src/main.cpp.o.requires:
+CMakeFiles/LINE_DETECT_TEST.dir/src/opencv_test.cpp.o.requires:
 
-.PHONY : CMakeFiles/LINE_DETECT_TEST.dir/src/main.cpp.o.requires
+.PHONY : CMakeFiles/LINE_DETECT_TEST.dir/src/opencv_test.cpp.o.requires
 
-CMakeFiles/LINE_DETECT_TEST.dir/src/main.cpp.o.provides: CMakeFiles/LINE_DETECT_TEST.dir/src/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/LINE_DETECT_TEST.dir/build.make CMakeFiles/LINE_DETECT_TEST.dir/src/main.cpp.o.provides.build
-.PHONY : CMakeFiles/LINE_DETECT_TEST.dir/src/main.cpp.o.provides
+CMakeFiles/LINE_DETECT_TEST.dir/src/opencv_test.cpp.o.provides: CMakeFiles/LINE_DETECT_TEST.dir/src/opencv_test.cpp.o.requires
+	$(MAKE) -f CMakeFiles/LINE_DETECT_TEST.dir/build.make CMakeFiles/LINE_DETECT_TEST.dir/src/opencv_test.cpp.o.provides.build
+.PHONY : CMakeFiles/LINE_DETECT_TEST.dir/src/opencv_test.cpp.o.provides
 
-CMakeFiles/LINE_DETECT_TEST.dir/src/main.cpp.o.provides.build: CMakeFiles/LINE_DETECT_TEST.dir/src/main.cpp.o
+CMakeFiles/LINE_DETECT_TEST.dir/src/opencv_test.cpp.o.provides.build: CMakeFiles/LINE_DETECT_TEST.dir/src/opencv_test.cpp.o
 
 
 # Object files for target LINE_DETECT_TEST
 LINE_DETECT_TEST_OBJECTS = \
-"CMakeFiles/LINE_DETECT_TEST.dir/src/main.cpp.o"
+"CMakeFiles/LINE_DETECT_TEST.dir/src/opencv_test.cpp.o"
 
 # External object files for target LINE_DETECT_TEST
 LINE_DETECT_TEST_EXTERNAL_OBJECTS =
 
-LINE_DETECT_TEST: CMakeFiles/LINE_DETECT_TEST.dir/src/main.cpp.o
+LINE_DETECT_TEST: CMakeFiles/LINE_DETECT_TEST.dir/src/opencv_test.cpp.o
 LINE_DETECT_TEST: CMakeFiles/LINE_DETECT_TEST.dir/build.make
+LINE_DETECT_TEST: /usr/lib/x86_64-linux-gnu/libopencv_shape.so.3.2.0
+LINE_DETECT_TEST: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.3.2.0
+LINE_DETECT_TEST: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.3.2.0
+LINE_DETECT_TEST: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.3.2.0
+LINE_DETECT_TEST: /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.3.2.0
+LINE_DETECT_TEST: /usr/lib/x86_64-linux-gnu/libopencv_bgsegm.so.3.2.0
+LINE_DETECT_TEST: /usr/lib/x86_64-linux-gnu/libopencv_bioinspired.so.3.2.0
+LINE_DETECT_TEST: /usr/lib/x86_64-linux-gnu/libopencv_ccalib.so.3.2.0
+LINE_DETECT_TEST: /usr/lib/x86_64-linux-gnu/libopencv_datasets.so.3.2.0
+LINE_DETECT_TEST: /usr/lib/x86_64-linux-gnu/libopencv_dpm.so.3.2.0
+LINE_DETECT_TEST: /usr/lib/x86_64-linux-gnu/libopencv_face.so.3.2.0
+LINE_DETECT_TEST: /usr/lib/x86_64-linux-gnu/libopencv_freetype.so.3.2.0
+LINE_DETECT_TEST: /usr/lib/x86_64-linux-gnu/libopencv_fuzzy.so.3.2.0
+LINE_DETECT_TEST: /usr/lib/x86_64-linux-gnu/libopencv_hdf.so.3.2.0
+LINE_DETECT_TEST: /usr/lib/x86_64-linux-gnu/libopencv_line_descriptor.so.3.2.0
+LINE_DETECT_TEST: /usr/lib/x86_64-linux-gnu/libopencv_optflow.so.3.2.0
+LINE_DETECT_TEST: /usr/lib/x86_64-linux-gnu/libopencv_plot.so.3.2.0
+LINE_DETECT_TEST: /usr/lib/x86_64-linux-gnu/libopencv_reg.so.3.2.0
+LINE_DETECT_TEST: /usr/lib/x86_64-linux-gnu/libopencv_saliency.so.3.2.0
+LINE_DETECT_TEST: /usr/lib/x86_64-linux-gnu/libopencv_stereo.so.3.2.0
+LINE_DETECT_TEST: /usr/lib/x86_64-linux-gnu/libopencv_structured_light.so.3.2.0
+LINE_DETECT_TEST: /usr/lib/x86_64-linux-gnu/libopencv_surface_matching.so.3.2.0
+LINE_DETECT_TEST: /usr/lib/x86_64-linux-gnu/libopencv_text.so.3.2.0
+LINE_DETECT_TEST: /usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.3.2.0
+LINE_DETECT_TEST: /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.3.2.0
+LINE_DETECT_TEST: /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.3.2.0
+LINE_DETECT_TEST: /usr/lib/x86_64-linux-gnu/libopencv_video.so.3.2.0
+LINE_DETECT_TEST: /usr/lib/x86_64-linux-gnu/libopencv_viz.so.3.2.0
+LINE_DETECT_TEST: /usr/lib/x86_64-linux-gnu/libopencv_phase_unwrapping.so.3.2.0
+LINE_DETECT_TEST: /usr/lib/x86_64-linux-gnu/libopencv_rgbd.so.3.2.0
+LINE_DETECT_TEST: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.3.2.0
+LINE_DETECT_TEST: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.3.2.0
+LINE_DETECT_TEST: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.3.2.0
+LINE_DETECT_TEST: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.3.2.0
+LINE_DETECT_TEST: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.3.2.0
+LINE_DETECT_TEST: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.3.2.0
+LINE_DETECT_TEST: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.3.2.0
+LINE_DETECT_TEST: /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.3.2.0
+LINE_DETECT_TEST: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.3.2.0
+LINE_DETECT_TEST: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.2.0
+LINE_DETECT_TEST: /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0
 LINE_DETECT_TEST: CMakeFiles/LINE_DETECT_TEST.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/blue/line_detect_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable LINE_DETECT_TEST"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LINE_DETECT_TEST.dir/link.txt --verbose=$(VERBOSE)
@@ -102,7 +143,7 @@ CMakeFiles/LINE_DETECT_TEST.dir/build: LINE_DETECT_TEST
 
 .PHONY : CMakeFiles/LINE_DETECT_TEST.dir/build
 
-CMakeFiles/LINE_DETECT_TEST.dir/requires: CMakeFiles/LINE_DETECT_TEST.dir/src/main.cpp.o.requires
+CMakeFiles/LINE_DETECT_TEST.dir/requires: CMakeFiles/LINE_DETECT_TEST.dir/src/opencv_test.cpp.o.requires
 
 .PHONY : CMakeFiles/LINE_DETECT_TEST.dir/requires
 

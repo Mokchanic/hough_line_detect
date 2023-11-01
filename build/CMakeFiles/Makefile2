@@ -100,61 +100,6 @@ clean: CMakeFiles/LINE_DETECT_TEST.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory sub_project
-
-# Convenience name for "all" pass in the directory.
-sub_project/all: sub_project/CMakeFiles/SUB_PROJECT.dir/all
-
-.PHONY : sub_project/all
-
-# Convenience name for "clean" pass in the directory.
-sub_project/clean: sub_project/CMakeFiles/SUB_PROJECT.dir/clean
-
-.PHONY : sub_project/clean
-
-# Convenience name for "preinstall" pass in the directory.
-sub_project/preinstall:
-
-.PHONY : sub_project/preinstall
-
-#=============================================================================
-# Target rules for target sub_project/CMakeFiles/SUB_PROJECT.dir
-
-# All Build rule for target.
-sub_project/CMakeFiles/SUB_PROJECT.dir/all:
-	$(MAKE) -f sub_project/CMakeFiles/SUB_PROJECT.dir/build.make sub_project/CMakeFiles/SUB_PROJECT.dir/depend
-	$(MAKE) -f sub_project/CMakeFiles/SUB_PROJECT.dir/build.make sub_project/CMakeFiles/SUB_PROJECT.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/blue/line_detect_test/build/CMakeFiles --progress-num=3,4 "Built target SUB_PROJECT"
-.PHONY : sub_project/CMakeFiles/SUB_PROJECT.dir/all
-
-# Include target in all.
-all: sub_project/CMakeFiles/SUB_PROJECT.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-sub_project/CMakeFiles/SUB_PROJECT.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/blue/line_detect_test/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 sub_project/CMakeFiles/SUB_PROJECT.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/blue/line_detect_test/build/CMakeFiles 0
-.PHONY : sub_project/CMakeFiles/SUB_PROJECT.dir/rule
-
-# Convenience name for target.
-SUB_PROJECT: sub_project/CMakeFiles/SUB_PROJECT.dir/rule
-
-.PHONY : SUB_PROJECT
-
-# clean rule for target.
-sub_project/CMakeFiles/SUB_PROJECT.dir/clean:
-	$(MAKE) -f sub_project/CMakeFiles/SUB_PROJECT.dir/build.make sub_project/CMakeFiles/SUB_PROJECT.dir/clean
-.PHONY : sub_project/CMakeFiles/SUB_PROJECT.dir/clean
-
-# clean rule for target.
-clean: sub_project/CMakeFiles/SUB_PROJECT.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.

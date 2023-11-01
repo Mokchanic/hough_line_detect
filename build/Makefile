@@ -126,45 +126,32 @@ LINE_DETECT_TEST/fast:
 	$(MAKE) -f CMakeFiles/LINE_DETECT_TEST.dir/build.make CMakeFiles/LINE_DETECT_TEST.dir/build
 .PHONY : LINE_DETECT_TEST/fast
 
-#=============================================================================
-# Target rules for targets named SUB_PROJECT
+src/opencv_test.o: src/opencv_test.cpp.o
 
-# Build rule for target.
-SUB_PROJECT: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 SUB_PROJECT
-.PHONY : SUB_PROJECT
-
-# fast build rule for target.
-SUB_PROJECT/fast:
-	$(MAKE) -f sub_project/CMakeFiles/SUB_PROJECT.dir/build.make sub_project/CMakeFiles/SUB_PROJECT.dir/build
-.PHONY : SUB_PROJECT/fast
-
-src/main.o: src/main.cpp.o
-
-.PHONY : src/main.o
+.PHONY : src/opencv_test.o
 
 # target to build an object file
-src/main.cpp.o:
-	$(MAKE) -f CMakeFiles/LINE_DETECT_TEST.dir/build.make CMakeFiles/LINE_DETECT_TEST.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
+src/opencv_test.cpp.o:
+	$(MAKE) -f CMakeFiles/LINE_DETECT_TEST.dir/build.make CMakeFiles/LINE_DETECT_TEST.dir/src/opencv_test.cpp.o
+.PHONY : src/opencv_test.cpp.o
 
-src/main.i: src/main.cpp.i
+src/opencv_test.i: src/opencv_test.cpp.i
 
-.PHONY : src/main.i
+.PHONY : src/opencv_test.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) -f CMakeFiles/LINE_DETECT_TEST.dir/build.make CMakeFiles/LINE_DETECT_TEST.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+src/opencv_test.cpp.i:
+	$(MAKE) -f CMakeFiles/LINE_DETECT_TEST.dir/build.make CMakeFiles/LINE_DETECT_TEST.dir/src/opencv_test.cpp.i
+.PHONY : src/opencv_test.cpp.i
 
-src/main.s: src/main.cpp.s
+src/opencv_test.s: src/opencv_test.cpp.s
 
-.PHONY : src/main.s
+.PHONY : src/opencv_test.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) -f CMakeFiles/LINE_DETECT_TEST.dir/build.make CMakeFiles/LINE_DETECT_TEST.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+src/opencv_test.cpp.s:
+	$(MAKE) -f CMakeFiles/LINE_DETECT_TEST.dir/build.make CMakeFiles/LINE_DETECT_TEST.dir/src/opencv_test.cpp.s
+.PHONY : src/opencv_test.cpp.s
 
 # Help Target
 help:
@@ -175,10 +162,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... LINE_DETECT_TEST"
 	@echo "... edit_cache"
-	@echo "... SUB_PROJECT"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
+	@echo "... src/opencv_test.o"
+	@echo "... src/opencv_test.i"
+	@echo "... src/opencv_test.s"
 .PHONY : help
 
 

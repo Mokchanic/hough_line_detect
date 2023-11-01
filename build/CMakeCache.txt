@@ -166,15 +166,6 @@ LINE_DETECT_TEST_SOURCE_DIR:STATIC=/home/blue/line_detect_test
 //The directory containing a CMake configuration file for OpenCV.
 OpenCV_DIR:PATH=/usr/share/OpenCV
 
-//Value Computed by CMake
-SUB_PROJECT_BINARY_DIR:STATIC=/home/blue/line_detect_test/build/sub_project
-
-//Dependencies for target
-SUB_PROJECT_LIB_DEPENDS:STATIC=
-
-//Value Computed by CMake
-SUB_PROJECT_SOURCE_DIR:STATIC=/home/blue/line_detect_test/sub_project
-
 
 ########################
 # INTERNAL cache entries
@@ -258,7 +249,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

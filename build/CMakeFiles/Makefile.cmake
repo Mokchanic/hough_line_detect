@@ -10,7 +10,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../CMakeLists.txt"
   "CMakeFiles/3.10.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.10.2/CMakeSystem.cmake"
-  "../sub_project/CMakeLists.txt"
+  "/usr/share/OpenCV/OpenCVConfig-version.cmake"
+  "/usr/share/OpenCV/OpenCVConfig.cmake"
+  "/usr/share/OpenCV/OpenCVModules-release.cmake"
+  "/usr/share/OpenCV/OpenCVModules.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeGenericSystem.cmake"
@@ -21,6 +24,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake"
   "/usr/share/cmake-3.10/Modules/Compiler/Clang.cmake"
   "/usr/share/cmake-3.10/Modules/Compiler/GNU.cmake"
+  "/usr/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake"
+  "/usr/share/cmake-3.10/Modules/FindPackageMessage.cmake"
   "/usr/share/cmake-3.10/Modules/Platform/Linux-Clang-CXX.cmake"
   "/usr/share/cmake-3.10/Modules/Platform/Linux-GNU-CXX.cmake"
   "/usr/share/cmake-3.10/Modules/Platform/Linux-GNU.cmake"
@@ -37,11 +42,9 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "sub_project/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/LINE_DETECT_TEST.dir/DependInfo.cmake"
-  "sub_project/CMakeFiles/SUB_PROJECT.dir/DependInfo.cmake"
   )

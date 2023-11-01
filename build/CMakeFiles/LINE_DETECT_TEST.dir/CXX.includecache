@@ -6,13 +6,9 @@
 
 #IncludeRegexTransform: 
 
-../sub_project/include/sub_project/utils.hpp
-string
+/home/blue/line_detect_test/src/opencv_test.cpp
+iostream
 -
-
-/home/blue/line_detect_test/src/main.cpp
-cstdint
--
-sub_project/utils.hpp
-/home/blue/line_detect_test/src/sub_project/utils.hpp
+opencv2/opencv.hpp
+/home/blue/line_detect_test/src/opencv2/opencv.hpp
 
