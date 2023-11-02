@@ -9,7 +9,9 @@
 /home/blue/line_detect_test/src/opencv_test.cpp
 iostream
 -
-opencv2/imgproc.hpp
+opencv2/core.hpp
+-
+opencv2/videoio.hpp
 -
 vector
 -
