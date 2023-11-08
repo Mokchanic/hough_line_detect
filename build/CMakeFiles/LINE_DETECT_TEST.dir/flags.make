@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -Wall -Wextra -Wpedantic -Werror -std=c++1z
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem /usr/include/opencv -I/home/blue/line_detect_test/include 
+CXX_INCLUDES = -isystem /usr/local/include/opencv4 -I/home/blue/line_detect_test/include 
 

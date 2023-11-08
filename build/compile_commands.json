@@ -1,7 +1,7 @@
 [
 {
   "directory": "/home/blue/line_detect_test/build",
-  "command": "/usr/bin/clang++-17   -isystem /usr/include/opencv -I/home/blue/line_detect_test/include  -g   -Wall -Wextra -Wpedantic -Werror -std=c++1z -o CMakeFiles/LINE_DETECT_TEST.dir/src/opencv_test.cpp.o -c /home/blue/line_detect_test/src/opencv_test.cpp",
+  "command": "/usr/bin/clang++-17   -isystem /usr/local/include/opencv4 -I/home/blue/line_detect_test/include  -g   -Wall -Wextra -Wpedantic -Werror -std=c++1z -o CMakeFiles/LINE_DETECT_TEST.dir/src/opencv_test.cpp.o -c /home/blue/line_detect_test/src/opencv_test.cpp",
   "file": "/home/blue/line_detect_test/src/opencv_test.cpp"
 }
 ]
