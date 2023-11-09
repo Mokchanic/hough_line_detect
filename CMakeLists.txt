@@ -38,7 +38,7 @@ find_package(OpenCV 4.5.5 REQUIRED PATHS ~/OpenCV4/install/lib/cmake/opencv4)
 include_directories(${OpenCV_INCLUDE_DIRS})
 
 add_executable(${PROJECT_NAME}
-	${${PROJECT_NAME}_SOURCE_PATH}/opencv_test.cpp
+	${${PROJECT_NAME}_SOURCE_PATH}/main.cpp
 )
 
 target_include_directories(${PROJECT_NAME} PUBLIC
